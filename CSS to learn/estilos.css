@@ -1,0 +1,132 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: rgb(201, 196, 196);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width: 1347px;
+	margin: 0px auto;
+	border: 1px solid black;
+
+}
+
+
+
+header {
+	background: rgb(235, 61, 8);
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+
+}
+
+nav {
+	background: rgb(195, 184, 79);
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+#content {
+	float: left;
+	width: calc(75% - 80px);
+	background: rgb(204, 45, 40);
+	min-height: 500px;
+	padding: 40px;
+}
+
+
+.article {
+	color: black;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+}
+
+.article:first-child {
+	padding-top: 10px;
+}
+
+.article h2 {
+	font-size: 25px;
+}
+
+aside {
+	float: left;
+	width: calc(25% - 20px);
+	background: rgb(163, 22, 64);
+	min-height: 560px;
+	padding: 10px;
+
+}
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+form {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+
+}
+
+.submissionfield {
+	width: 160px;
+	height: 20px;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+.submissionbutton {
+	width: 70px;
+	height: 30px;
+	border: 1px solid black;
+	padding: 5px
+}
+
+.submissionfield {
+	border-radius: 10px;
+	box-shadow: 4px 9px 8px 2px black;
+}
+
+.submissionbutton {
+	border-radius: 10px;
+	margin-left: 25px;
+	box-shadow: 1px 4px 5px 2px black;
+	transform: rotate(15deg);
+}
+
+.submissionbutton:hover {
+	background-color: green;
+}
+
+#button2:hover {
+	background-color: red;
+}
